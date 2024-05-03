@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+
+
+.card {
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+.table thead {
+ /* background: #cbd5f9; */
+  background:rgb(133, 185, 196)  ;
+ 
+}
+.table thead th {
+  border: 0;
+}
+.badge
+{
+font-size:15px;
+background: rgb(59, 134, 164) ;
+}
+.icona
+{
+font-size:25px;
+
+}
+.link-unstyled {
+    text-decoration: none;
+    color :red ;
+    
+}
+
+.link-unstyled:hover {
+    color: white;
+}

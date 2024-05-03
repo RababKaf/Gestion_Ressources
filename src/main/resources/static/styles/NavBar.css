@@ -1,0 +1,176 @@
+@charset "UTF-8";
+ 
+   
+   
+   .logout-link {
+            color: white;
+            text-decoration: none;
+            margin-right: 50px;
+            position: relative;
+        }
+
+        .logout-link i {
+            margin-right: 70px; 
+        }
+
+        .logout-link span {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #333;
+            padding: 5px;
+            border-radius: 5px;
+            color: white;
+        }
+
+        .logout-link:hover span {
+            display: block;
+        }
+  .detail strong {
+        
+        color: #4a9acf;
+        font-family: Georgia, serif;
+        }
+    
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+      header {
+    background-color: #06456F;
+    color: #ecf0f1;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center;
+}
+        #profile-pic {
+            width:110px;
+            height: 110px;
+            border-radius: 50%;
+            margin-right: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            margin: 0;
+            margin-left: 60px;
+            font-size: 1.5em;
+            color: #ecf0f1;
+        }
+
+        nav {
+            float: left;
+            width: 220px;
+            height: 200vh;
+            padding: 15px;
+            background-color:#0D5583;
+            color: #ecf0f1;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            
+        }
+
+        nav li {
+            margin-bottom: 20px;
+            position: relative;
+            font-weight: bold;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #ecf0f1;
+            display: block;
+            padding: 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color:#0F6EACDE;
+        }
+
+        section {
+            margin-left: 220px;
+            padding: 20px;
+            background-color:white;
+            color: #333;
+        }
+        
+     
+
+        .notification-container {
+            position: relative;
+            display: inline-block;
+             margin: 0;
+            margin-left:60%;
+            font-size: 1.5em;
+             cursor: pointer;
+           
+        }
+       
+
+        .notification-badge {
+            position: absolute;
+            top: -10px; /* Adjust this value based on your design */
+            right: -10px; /* Adjust this value based on your design */
+            background-color: red;
+            color: white;
+            border-radius: 50%;
+            padding: 4px 8px;
+            font-size: small;
+            
+        }
+        
+
+        .notification-messages {
+            display: none;
+            position: absolute;
+            top: 25px; /* Adjust this value based on your design */
+            right:-130px;
+
+            padding: 25px;
+            z-index: 1;
+            border-radius: 8px;
+            border-color:#ecf0f1;
+            max-width: 300px;
+            width:300px;
+            color:black;
+        }
+
+        .notification-card {
+           text-align: center;
+            margin-bottom: 15px;
+            padding: 1px;
+            background-color: #ecf0f1;
+            border-radius: 20px;
+            width:300px;
+            height:130px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            font-size:18px 
+        }
+
+        .mark-as-read-btn {
+            background-color:#ecf0f1;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .read-notification {
+            background-color: #fff; /* Adjust the color for read notifications */
+        }
+        
+         
